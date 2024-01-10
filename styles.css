@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.menu {
+    padding-top: 26px;
+    padding: 5px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #666666;
+    display: flex;
+}
+
+.menu img {
+    height: 32px;
+    float: left;
+}
+
+.menu li {
+    display: inline;
+    float: right;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    decoration: none;
+    color: black;
+}
+
+.welcome {
+    padding-top: 80px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.welcome h1 {
+    font-size: 64px;
+    padding-bottom: 16px;
+    color: #001166;
+}
+
+.welcome img {
+    height: 100%;
+    width: 60%;
+    border-radius: 20px;
+
+}
+
+.welcome p {
+    padding-top: 40px;
+    color: #666666;
+    font-size: 24px;
+}
+
+.sjed {
+    padding-top: 128px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.sjed p {
+    padding-top: 16px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.list {
+    padding-top: 200px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.list h2 {
+    font-size: 40px;
+    padding-bottom: 100px;
+}
+
+#list {
+    scroll-margin-top: 40px;
+}
+
+
+.list table{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.list table tr:nth-child(odd) {
+    background-color: #666666;
+}
+
+tr:hover {
+    cursor: pointer;
+    background-color: #888888;
+}
+
+.list table tr:nth-child(odd):hover {
+    background-color: #888888;
+}
+
+
+tr.strikeout td:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid #111;
+    width: 100%;
+}
+
+td, th {
+
+    position: relative;
+    padding: 3px;
+}
+
+.list button {
+    margin-bottom: 20px;
+}
+
+.list input {
+    font-size: 20px;
+}
